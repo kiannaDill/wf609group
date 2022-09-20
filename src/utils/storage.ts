@@ -1,6 +1,9 @@
 /**
  * 存储 localStorage
-*/
+ * @param name 名称
+ * @param content 内容
+ * @returns 
+ */
 export const setStronge = (name: string, content: any) => {
   if (!name) return;
   if (typeof content !== 'string') {
